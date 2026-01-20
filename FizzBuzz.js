@@ -1,25 +1,26 @@
-var count = 1;
+var number = 1;
 var output = [];
 
-function fizzBuzz() {
+function fizzBuzzNumber() {
   
-  while (count <= 100) {
+  while (number <= 100) {
     
-    if (count % 3 === 0 && count % 5 === 0) {
+    if (number % 3 === 0 && number % 5 === 0) {
       output.push("FizzBuzz");
       
-    } else if (count % 3 === 0) {
+    } else if (number % 3 === 0) {
       output.push("Fizz");
       
-    } else if (count % 5 === 0) {
+    } else if (number % 5 === 0) {
       output.push("Buzz");
       
     } else {
-      output.push(count);
+      output.push(number);
     }
-    count++;
+    number++;
   }
 
   console.log(output);
 }
+
 
