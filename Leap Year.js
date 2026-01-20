@@ -1,17 +1,18 @@
-function isLeap(year) {
+function isLeapYear(year) {
 
     if (year % 4 === 0) {
         if (year % 100 === 0) {
             if (year % 400 === 0) {
-                return("Leap year.");
+                return("It is a leap year.");
             } else {
-                return("Not leap year.");
+                return("It is not a leap year.");
             }
         } else {
-            return("Leap year.");
+            return("It is a leap year.");
         }
     } else {
-        return("Not leap year.");
+        return("It is not a leap year.");
     }
     
 }
+
