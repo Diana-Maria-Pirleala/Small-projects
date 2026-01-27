@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color: #B7BDF7;
+}
+
+#level-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    margin: 5%;
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+    border-radius: 20%;
+}
+
+.game-over{
+    background-color: red;
+    opacity: 0.8;
+}
+
+.orange{
+    background-color: #C4501B;
+}
+
+.red{
+    background-color: #8A2B13;
+}
+
+.green{
+    background-color: #4E7145;
+}
+
+.yellow {
+  background-color: #EB9C35;
+}
+
+.pressed {
+    background-color: white;          
+    box-shadow: 0 0 40px white, 0 0 60px yellow; 
+    transform: scale(1.15);           
+    transition: all 0.1s;             
+}
